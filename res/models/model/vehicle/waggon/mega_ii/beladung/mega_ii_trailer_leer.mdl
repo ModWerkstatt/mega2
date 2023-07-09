@@ -1,0 +1,60 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			3.05, 1.21, 2.6, 
+		},
+		bbMin = {
+			-3.05, -1.21, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/mega_ii/mega_ii_trailer.mtl", },
+						mesh = "vehicle/waggon/mega_ii/zapfen2_leer_lod0.msh",
+						name = "Drehgestell Y31",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

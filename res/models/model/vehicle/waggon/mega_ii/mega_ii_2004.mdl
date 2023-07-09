@@ -1,0 +1,1665 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 19.18, 1.428, 4.6, },
+		bbMin = { -19.18, -1.428, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 19.18, 1.428, 1, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+				    {
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_trailer.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_trailer_lod0.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9, 0, 0, 1, },
+							},
+							{
+								_meshId = 10,
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+								name = "zugschluss_de_front",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.2, -1.14, 1.28, 1,	},
+							},
+							{
+								_meshId = 11,
+								materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+								name = "zugschluss_de_front",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.2, 0.62, 1.28, 1,	},
+							},
+						},
+						name = "Wagen 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.435, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_ct.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_lod0.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod0.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.1, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.435, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 25,
+		},
+		{
+			node = {
+				children = {
+				    {
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_trailer.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_trailer_lod0.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.435, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_ct.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_lod0.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.1, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.435, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 25,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+				    {
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_trailer.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_trailer_lod1.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.435, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_ct.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_lod1.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod1.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.1, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.435, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 400,
+		},
+		{
+			node = {
+				children = {
+				    {
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_trailer.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_trailer_lod2.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.435, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								_meshId = 1,
+								materials = { "vehicle/waggon/mega_ii/mega_ii_ct.mtl", },
+								mesh = "vehicle/waggon/mega_ii/rumpf_lod2.msh",
+								name = "Drehgestell Y31",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_vorne",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.9, 0, 0, 1, },
+							},
+							{
+								children = {
+									{
+										_meshId = 1,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 2,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.392, 1, },
+									},
+									{
+										_meshId = 3,
+										materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y31.mtl", },
+										mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y31/dg_ba_y31_lod2.msh",
+										name = "",
+										transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+									},
+								},
+								name = "DG_hinten",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.1, 0, 0, 1, },
+							},
+						},
+						name = "Wagen 2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.435, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 1800,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2004,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("mega_ii_2004_name"),
+            description = _("mega_ii_2004_desc"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+	railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod0.msh", },
+                    frontForwardParts = { },
+                    backForwardParts = { 11, 12 },
+                    frontBackwardParts = { },
+                    backBackwardParts = { },
+                    innerForwardParts = { },
+                    innerBackwardParts = { }
+				},
+                {
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod1.msh", },
+				},
+                
+                {
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_720mm_scheibenbremse_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "mw_container",
+			},
+			topSpeed = 33.3333333,
+			weight = 36,
+	},
+	cargoSlotProvider = {
+		slots = {
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_trailer_leer.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 0,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_trailer_20ft.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 1,
+			},
+			{
+				models = {	"asset/container_nando/container_40ft/container_40ft_cma.mdl",
+							"asset/container_nando/container_40ft/container_40ft_csx.mdl",
+							"asset/container_nando/container_40ft/container_40ft_dhl.mdl",
+							"asset/container_nando/container_40ft/container_40ft_evergreen.mdl",
+							"asset/container_nando/container_40ft/container_40ft_generic.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hamburg.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hanjin.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hl.mdl",
+							"asset/container_nando/container_40ft/container_40ft_maersk.mdl",
+							"asset/container_nando/container_40ft/container_40ft_maikc.mdl",
+							"asset/container_nando/container_40ft/container_40ft_pacer.mdl",
+							"asset/container_nando/container_40ft/container_40ft_po.mdl",
+							"asset/container_nando/container_40ft/container_40ft_pof.mdl",
+							"asset/container_nando/container_40ft/container_40ft_samskip.mdl",
+							"asset/container_nando/container_45ft/container_45ft_cma.mdl",
+							"asset/container_nando/container_45ft/container_45ft_csx.mdl",
+							"asset/container_nando/container_45ft/container_45ft_dhl.mdl",
+							"asset/container_nando/container_45ft/container_45ft_evergreen.mdl",
+							"asset/container_nando/container_45ft/container_45ft_generic.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hamburg.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hanjin.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hl.mdl",
+							"asset/container_nando/container_45ft/container_45ft_maersk.mdl",
+							"asset/container_nando/container_45ft/container_45ft_pacer.mdl",
+							"asset/container_nando/container_45ft/container_45ft_po.mdl",
+							"asset/container_nando/container_45ft/container_45ft_pof.mdl",
+							"asset/container_nando/container_45ft/container_45ft_samskip.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_cma.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_csx.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_generic.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_msc.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_one.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_po.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_pof.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_samskip.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.62, 0, 0.91, 1, },
+				randomId = 2,
+			},
+			{
+				models = {	"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+							"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+							"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+							"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+							"asset/container_nando/container_20ft/container_20ft_po.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+							"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 0.91, 1, },
+				randomId = 3,
+			},
+			{
+				models = {	"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+							"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+							"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+							"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+							"asset/container_nando/container_20ft/container_20ft_po.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+							"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.25, 0, 0.91, 1, },
+				randomId = 4,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_trailer_konigzapfen.mdl", },	
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.5, 0, 0.98, 1, },
+				randomId = 5,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_trailer_konigzapfen.mdl", },	
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8, 0, 0.98, 1, },
+				randomId = 6,
+			},
+			{
+				models = {	"asset/krone_trailer/ladung/set1/krone_trailer_dhl_ladung.mdl",						
+							"asset/krone_trailer/ladung/set1/krone_trailer_enterprise_ladung.mdl",
+							"asset/krone_trailer/ladung/set1/krone_trailer_ewals_ladung.mdl",
+							"asset/krone_trailer/ladung/set1/krone_trailer_gw_ladung.mdl",						
+							"asset/krone_trailer/ladung/set1/krone_trailer_schenker_ladung.mdl",
+							"asset/krone_trailer/ladung/set1/krone_trailer_walter_ladung.mdl",
+							"asset/krone_trailer/ladung/set2/krone_trailer_asg_ladung.mdl",						
+							"asset/krone_trailer/ladung/set2/krone_trailer_bilspedition_ladung.mdl",
+							"asset/krone_trailer/ladung/set2/krone_trailer_kuehne_ladung.mdl",
+							"asset/krone_trailer/ladung/set2/krone_trailer_nagel_ladung.mdl",						
+							"asset/krone_trailer/ladung/set2/krone_trailer_planzer_ladung.mdl",
+							"asset/krone_trailer/ladung/set2/krone_trailer_vdaalen_ladung.mdl", },	
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7, 0, 0.28, 1, },
+				randomId = 7,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_leer.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 8,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_40ft.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 9,
+			},
+			{
+				models = {	"asset/container_nando/container_40ft/container_40ft_cma.mdl",
+							"asset/container_nando/container_40ft/container_40ft_csx.mdl",
+							"asset/container_nando/container_40ft/container_40ft_dhl.mdl",
+							"asset/container_nando/container_40ft/container_40ft_evergreen.mdl",
+							"asset/container_nando/container_40ft/container_40ft_generic.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hamburg.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hanjin.mdl",
+							"asset/container_nando/container_40ft/container_40ft_hl.mdl",
+							"asset/container_nando/container_40ft/container_40ft_maersk.mdl",
+							"asset/container_nando/container_40ft/container_40ft_maikc.mdl",
+							"asset/container_nando/container_40ft/container_40ft_pacer.mdl",
+							"asset/container_nando/container_40ft/container_40ft_po.mdl",
+							"asset/container_nando/container_40ft/container_40ft_pof.mdl",
+							"asset/container_nando/container_40ft/container_40ft_samskip.mdl",
+							"asset/container_nando/container_45ft/container_45ft_cma.mdl",
+							"asset/container_nando/container_45ft/container_45ft_csx.mdl",
+							"asset/container_nando/container_45ft/container_45ft_dhl.mdl",
+							"asset/container_nando/container_45ft/container_45ft_evergreen.mdl",
+							"asset/container_nando/container_45ft/container_45ft_generic.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hamburg.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hanjin.mdl",
+							"asset/container_nando/container_45ft/container_45ft_hl.mdl",
+							"asset/container_nando/container_45ft/container_45ft_maersk.mdl",
+							"asset/container_nando/container_45ft/container_45ft_pacer.mdl",
+							"asset/container_nando/container_45ft/container_45ft_po.mdl",
+							"asset/container_nando/container_45ft/container_45ft_pof.mdl",
+							"asset/container_nando/container_45ft/container_45ft_samskip.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_cma.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_csx.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_generic.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_hl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_msc.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_one.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_po.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_pof.mdl",
+							"asset/container_kaleut/container_40ft_hc/container_40ft_hc_samskip.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.05, 0, 0.91, 1, },
+				randomId = 10,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_20ft.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 11,
+			},
+			{
+				models = {	"vehicle/waggon/mega_ii/beladung/mega_ii_30ft.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				randomId = 12,
+			},
+			{
+				models = {	"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+							"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+							"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+							"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+							"asset/container_nando/container_20ft/container_20ft_po.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+							"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.32, 0, 0.91, 1, },
+				randomId = 13,
+			},
+			{
+				models = {	"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+							"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+							"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+							"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+							"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+							"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+							"asset/container_nando/container_20ft/container_20ft_po.mdl",
+							"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+							"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl",
+							"asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.65, 0, 0.91, 1, },
+				randomId = 14,
+			},
+			{
+				models = {	"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.32, 0, 0.91, 1, },
+				randomId = 15,
+			},
+			{
+				models = {	"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_generic.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_hsft.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_bert.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_generic.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vdb.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vtg.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vdb.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vtg.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl", },
+				group = 13,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.65, 0, 0.91, 1, },
+				randomId = 16,
+			},
+			{
+				models = {	"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_generic.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_hsft.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_bert.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_generic.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vdb.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vtg.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vdb.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vtg.mdl",
+							"asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.65, 0, 0.91, 1, },
+				randomId = 17,
+			},
+			{
+				models = {	"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+							"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl", },
+				group = 1,
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.25, 0, 0.91, 1, },
+				randomId = 18,
+			},
+		},		
+	},
+	
+	transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "PLANKS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 17 },	
+											{ 1, 5, 17, 18 },									
+										},
+									},																			
+								},
+							},
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "STEEL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 5 },	
+											{ 0, 5, 2 },								
+										},
+									},	
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 3 },
+											{ 1, 5, 3, 4 },	
+											{ 1, 5, 3, 4 },										
+										},
+									},				
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 0, 6 },	
+											{ 0, 6, 7 },	
+											{ 0, 6, 7 },									
+										},
+									},																			
+								},
+							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 17 },	
+											{ 1, 5, 17, 18 },									
+										},
+									},									
+								},
+							},
+							type = "FUEL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 17 },	
+											{ 1, 5, 17, 18 },									
+										},
+									},									
+								},
+							},
+							type = "OIL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 5 },
+											{ 1, 5 },	
+											{ 1, 5, 17 },	
+											{ 1, 5, 17, 18 },									
+										},
+									},									
+								},
+							},
+							type = "CRUDE",
+						},
+					},
+                },
+				
+				{
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "PLANKS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 16 },	
+											{ 11, 16, 15 },									
+										},
+									},
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "STEEL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 9 },	
+											{ 9, 10 },									
+										},
+									},	
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 14 },	
+											{ 11, 14, 13 },									
+										},
+									},						
+								},
+							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 16 },	
+											{ 11, 16, 15 },									
+										},
+									},					
+								},
+							},
+							type = "OIL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 16 },	
+											{ 11, 16, 15 },									
+										},
+									},					
+								},
+							},
+							type = "FUEL",
+						},
+					},
+					{
+						{
+							capacity = 72,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 8 },
+											{ 11 },	
+											{ 11, 16 },	
+											{ 11, 16, 15 },									
+										},
+									},					
+								},
+							},
+							type = "CRUDE",
+						},
+					},
+                },
+		    },
+			loadSpeed = 2,
+			maxVolume = 60,
+			maxWeight = 93,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/mega_ii/menu_mega_ii.mdl",
+		},
+	},
+	version = 1,
+}
+end
